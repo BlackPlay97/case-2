@@ -41,7 +41,17 @@
               data-toggle="collapse"
               data-target="#navbarNavDropdown"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span
+                class="navbar-toggler-icon"
+                style="
+                  border: 1px solid rgba(0, 0, 0, 0.1);
+                  color: #ff0000;
+                  border-radius: 5px;
+                  padding: 20px;
+                  background-image: url(./assets/images/btn-nav-icon.svg);
+                  width: 60px;
+                "
+              ></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav nav-list ml-auto">
@@ -83,7 +93,7 @@
     <!-- Banner -->
     <section class="banner d-flex">
       <div class="container">
-        <div class="sologan col-6 ml-auto">
+        <div class="sologan col-12 col-sm-12 col-lg-8 col-xl-5 ml-auto">
           We Provide <span>Solutions </span>that Brings <span>Joy</span><br />
           <a class="btn" href="">HIRE US NOW!</a>
         </div>
@@ -92,7 +102,7 @@
     <!-- services -->
     <section id="services">
       <div class="container">
-        <div class="services-title d-flex col-8">
+        <div class="services-title d-flex col-12 col-lg-8 col-xl-8">
           <p>Latest services from all categories</p>
           <span
             >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -100,7 +110,7 @@
           >
         </div>
         <div class="services-list d-flex">
-          <div class="services-item col-3">
+          <div class="services-item col-12 col-xl-3 col-md-6">
             <div class="services-content">
               <i class="fa-solid fa-rocket"></i>
               <p>Easy Flight Search</p>
@@ -111,7 +121,7 @@
               <a href="">View details</a>
             </div>
           </div>
-          <div class="services-item col-3">
+          <div class="services-item col-12 col-xl-3 col-md-6">
             <div class="services-content">
               <i class="fa-solid fa-wand-magic-sparkles"></i>
               <p>Get Hotel Offers</p>
@@ -122,7 +132,7 @@
               <a href="">View details</a>
             </div>
           </div>
-          <div class="services-item col-3">
+          <div class="services-item col-12 col-xl-3 col-md-6">
             <div class="services-content">
               <i class="fa-solid fa-gift"></i>
               <p>Holiday Packages</p>
@@ -133,7 +143,7 @@
               <a href="">View details</a>
             </div>
           </div>
-          <div class="services-item col-3">
+          <div class="services-item col-12 col-xl-3 col-md-6">
             <div class="services-content">
               <i class="fa-solid fa-phone"></i>
               <p>Dedicated Support</p>
@@ -150,9 +160,9 @@
     <!-- about -->
     <section id="about">
       <div class="container">
-        <div class="about-intro col-6">
+        <div class="about-intro col-12 col-md-12 col-lg-12 col-xl-6">
           <p>We can be your digital Problems Solution Partne</p>
-          <span class="d-inline-block"
+          <span class="d-block"
             >inappropriate behavior is often laughed off as “boys will be boys,”
             women face higher conduct standards especially in the workplace.
             That’s why it’s crucial that, as women, our behavior on the job is
@@ -160,10 +170,10 @@
           >
           <a href="">what we offer</a>
           <a href="">get a free vote</a>
+          <div class="about-img col-5 col-md-12 col-lg-6 col-xl-6">
+            <img src="./assets/images/about.png" alt="" />
+          </div>
         </div>
-      </div>
-      <div class="about-img col-6">
-        <img src="./assets/images/about.png" alt="" />
       </div>
     </section>
     <!-- project -->
@@ -258,29 +268,33 @@
     </section>
     <section id="skill">
       <div class="container">
-        <div class="skill-title col-5">
-          <p>Our Fields of Expertness</p>
-          <span
-            >inappropriate behavior is often laughed off as “boys will be boys,”
-            women face higher conduct standards especially in the workplace.
-            That’s why it’s crucial that.</span
+        <div class="skill-content d-flex col-12 col-md-12 col-lg-12">
+          <div class="skill-title col-12 col-md-8 col-lg-6 col-xl-5">
+            <p>Our Fields of Expertness</p>
+            <span
+              >inappropriate behavior is often laughed off as “boys will be
+              boys,” women face higher conduct standards especially in the
+              workplace. That’s why it’s crucial that.</span
+            >
+          </div>
+          <div
+            class="statis-list d-flex col-12 col-12 col-md-12 col-lg-12 col-xl-5 ml-auto"
           >
-        </div>
-        <div class="statis-list d-flex">
-          <div class="statis-item">
-            <div class="circle"></div>
-            <div class="box">75%</div>
-            <div class="box-title">Wireframing</div>
-          </div>
-          <div class="statis-item">
-            <div class="circle"></div>
-            <div class="box">95%</div>
-            <div class="box-title">User Research</div>
-          </div>
-          <div class="statis-item">
-            <div class="circle"></div>
-            <div class="box">85%</div>
-            <div class="box-title">User Experience</div>
+            <div class="statis-item">
+              <div class="circle"></div>
+              <div class="box">75%</div>
+              <div class="box-title">Wireframing</div>
+            </div>
+            <div class="statis-item">
+              <div class="circle"></div>
+              <div class="box">95%</div>
+              <div class="box-title">User Research</div>
+            </div>
+            <div class="statis-item">
+              <div class="circle"></div>
+              <div class="box">85%</div>
+              <div class="box-title">User Experience</div>
+            </div>
           </div>
         </div>
       </div>

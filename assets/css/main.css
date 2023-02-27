@@ -177,8 +177,8 @@ header .nav-list a:hover {
 }
 #about .about-img {
   position: relative;
-  top: -350px;
-  right: -900px;
+  top: -450px;
+  right: -550px;
 }
 
 #project {
@@ -230,8 +230,8 @@ hr {
 }
 #skill .statis-list .circle {
   position: relative;
-  width: 140px;
-  height: 140px;
+  width: 8rem;
+  height: 8rem;
   overflow: hidden;
   background: linear-gradient(60deg, #908ced, #b56fe8);
   border-radius: 50%;
@@ -250,13 +250,14 @@ hr {
 #skill .statis-list .box {
   color: #fff;
   font-size: 20px;
-  transform: translate(55px, -85px);
+  text-align: center;
+  transform: translateY(-5rem);
 }
 #skill .statis-list .box-title {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
-  transform: translateX(14px);
+  text-align: center;
 }
 
 #team {
@@ -459,6 +460,10 @@ footer .footer-top .product a {
   font-weight: 300;
   text-decoration: none;
   line-height: 30px;
+  transition: all 0.3s ease 0s;
+}
+footer .footer-top .product a:hover {
+  color: #8490ff;
 }
 footer .footer-top .email {
   transform: translateX(-100px);
@@ -544,4 +549,41 @@ footer .footer-bottom .contact a {
 }
 footer .footer-bottom .contact a:hover {
   background: linear-gradient(60deg, #908ced, #b56fe8);
+}
+
+@media (max-width: 1200px) {
+  .sologan,
+  .sologan span {
+    font-size: 40px;
+    justify-content: center;
+  }
+  #services .services-title {
+    transform: translate(0, 0);
+    text-align: center;
+  }
+  #services .services-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #services .services-list .services-item {
+    padding-top: 50px;
+    text-align: center;
+  }
+  #services .services-list .services-item span {
+    display: block;
+  }
+  #skill {
+    max-width: 1200px;
+    text-align: center;
+  }
+  #skill .skill-content {
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  .sologan,
+  .sologan span {
+    font-size: 40px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */
